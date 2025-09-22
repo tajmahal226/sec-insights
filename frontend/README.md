@@ -24,3 +24,11 @@ This app consists of two main routes,
 3. And before pushing to the repo, `npm run build` to catch any typescript errors (TODO: pre-commit hook)
 
 Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+
+## Vercel Deployment
+
+To deploy this frontend to Vercel, you will need to set the following environment variable:
+
+- `NEXT_PUBLIC_BACKEND_URL`: The URL of the deployed backend API.
+
+You can set this in the Vercel project settings.
